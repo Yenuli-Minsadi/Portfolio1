@@ -217,12 +217,8 @@ section {
     }
 
      #intro {
-        padding-bottom: 5rem;
+        padding-bottom: 4rem;
      }
-
-    #collabAndCv {
-        top: 5rem;
-    }
 
     .hero > #propic-container {
         position: static;
