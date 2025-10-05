@@ -221,7 +221,7 @@ section {
     }
 
     #collabAndCv {
-        top: 5rem;
+        top: 7rem !important;
     }
 
     .hero > #propic-container {
