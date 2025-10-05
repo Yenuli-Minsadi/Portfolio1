@@ -23,14 +23,14 @@ body {
     /*top: 0;*/
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 720px) {
     .header {
         position: relative;
 
     }
 }
 
-@media all and (min-width: 425px) {
+@media all and (min-width: 720px) {
     body {
         padding-top: 100px;
     }
@@ -54,7 +54,7 @@ nav{
     margin: 0;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 720px) {
 
     .navigation h1 {
         position: relative;  /* flow naturally */
@@ -78,7 +78,7 @@ nav{
       list-style: none;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 720px) {
 
 nav {
     flex-direction: column;
@@ -110,7 +110,7 @@ nav {
     color: #C4D9FF;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 720px) {
 .navigation {
     display: flex;
     flex-direction: column;
@@ -191,7 +191,7 @@ section {
     overflow: hidden;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 720px) {
 
      section {
             bottom: 0;
