@@ -220,10 +220,6 @@ section {
         padding-bottom: 2rem;
     }
 
-    #collabAndCv {
-        top: 7rem;
-    }
-
     .hero > #propic-container {
         position: static;
         width: 200px;
@@ -237,6 +233,7 @@ section {
     }
 
     #collabAndCv {
+        top: 7rem;
         right: 0;
         bottom: 0;
         width: auto;
