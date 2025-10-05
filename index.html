@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.-">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+    <!-- ✅ Import Google Font: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gantari&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <header>
+  <div class="header">
+    <nav class="navigation">
+    <h1>.YEN</h1>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Work Experience</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Hobby</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+  <main>
+    <div id="spotlight"></div>
+
+    <section class="hero">
+
+      <div id="propic-container">
+<!--        <img src="assets/images/propic.png" alt="profile picture" class="hero-image">-->
+      </div>
+    <!--  Name  -->
+    <div id="name">
+    <h1 class="first-name">YENULI</h1>
+    <h1 class="second-name">MINSADI</h1>
+      <div id="specializations">
+        <h2>Product Designer</h2>
+        <h2>Full-Stack Engineer</h2>
+        <h2>UI/UX Engineer</h2>
+      </div>
+      <div id="intro">
+        <p class="intro-para">I&lsquo;m a professional Product Designer, UI/UX Engineer <br>
+          with a strong eye for detail, clean functionality and
+          <br> a user-first mindset leveraging product concept
+          <br>to code through  Full-stack Engineering.
+        </p>
+      </div>
+    </div>
+
+    <div id="collabAndCv">
+      <button class="collab">Collab</button>
+      <button class="cv">CV</button>
+    </div>
+
+  </section>
+  <section class="about-me">
+
+  </section>
+  <section class="education">
+
+  </section>
+  <section class="skills">
+
+  </section>
+  <section class="projects">
+
+  </section>
+  <section class="assignments">
+
+  </section>
+  <section class="work-experience">
+
+  </section>
+  <section class="values">
+
+ </section>
+ <section class="hobby">
+
+ </section>
+ <section class="services">
+
+ </section>
+
+  </main>
+  <footer>
+  <div class="footer">
+<!--    <p>Elevate your company's engineering standards to<br>-->
+<!--      <pre>                EXCELLENCE.              </pre>-->
+<!--      <pre> Let's connect and discuss your needs.</pre><br>-->
+<!--    </p>-->
+    <p class="email-text"><img src="assets/images/icons8-email-50.png" title="email" alt="email" width="30" height="30"> email for a quick reply</p>
+    <br><br><br><br>
+    <div class="copyright-section">
+    <p class="copyrights"> &copy; 2025 Portfolio web designed and coded using HTML, CSS and JS by Yenuli Minsadi.</p>
+    </div>
+  </div>
+  </footer>
+  <script>
+    const spotlight = document.getElementById("spotlight");
+
+    document.addEventListener("mousemove", (e) => {
+      spotlight.style.background = `radial-gradient(600px at ${e.pageX}px ${e.pageY}px, rgba(29,78,216,0.15), transparent 80%)`;
+    });
+
+  </script>
+  </body>
+</html>

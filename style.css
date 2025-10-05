@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #070F2B;
+    color: white;
+}
+
+.header {
+    background-color: #070F2B;
+    padding: 2.5rem 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    /*height: auto;*/
+    position: fixed;
+    /*position: relative;*/
+    /*position: fixed;*/
+    /*top: 0;*/
+}
+
+@media all and (max-width: 320px) {
+    .header {
+        position: relative;
+
+    }
+}
+
+@media all and (min-width: 320px) {
+    body {
+        padding-top: 100px;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 1%;
+    /*width: 100%;*/
+}
+
+.navigation h1 {
+    position: absolute;
+    left: 4%;
+    font-family: 'Reem Kufi', sans-serif;
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+}
+
+@media all and (max-width: 320px) {
+
+    .navigation h1 {
+        position: relative;  /* flow naturally */
+        left: 0;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Center nav links */
+/*.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    /*height: 60px;*/
+.nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+}
+
+@media all and (max-width: 320px) {
+
+nav {
+    flex-direction: column;
+    }
+
+.nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    /*display: flex;
+    flex-direction: column;
+    position: relative;  /* flow naturally */
+    /*left: 0;
+    text-align: center;
+    margin-top: 3rem;*/
+    }
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.95rem;
+    /* font-weight: bold; */
+    /* font-family: 'Gantari', sans-serif; */
+}
+
+.nav-links a:hover {
+    color: #C4D9FF;
+}
+
+@media all and (max-width: 320px) {
+.navigation {
+    display: flex;
+    flex-direction: column;
+    position: relative;  /* lets it flow naturally */
+    left: 0;
+    text-align: center;
+    margin-bottom: 1rem;
+    }
+}
+
+/* Footer styling */
+.footer {
+    /*position:;*/
+    background-color: #070F2B;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    padding-bottom: 8rem;
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+.footer pre {
+    font-size: 20px;
+}
+
+.footer p.email-text {
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.footer p.copyrights {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: #070F2B;
+    padding: 20rem 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.hero {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.hero > #propic-container {
+    width: 270px;
+    height: 270px;
+    position: relative;
+    left: 100px;
+    /*background-color: white;*/
+    background: radial-gradient(circle at center, rgba(255,255,255,0.6)0%, rgba(209,209,209,0.9) 70%);
+    /*right: 0;*/
+    bottom: 260px;
+    /*margin: auto;*/
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+@media all and (max-width: 320px) {
+
+     section {
+            bottom: 0;
+            left: 0;
+            text-align: center;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+    .hero {
+        flex-direction: column; /* stack image + text */
+        justify-content: center;
+        align-items: center; /* centers horizontally */
+        text-align: center;
+    }
+
+    #name, .first-name, .second-name, #specializations, #intro, #collabAndCv {
+        bottom: 0 !important;
+        left: 0 !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+        max-width: 100% !important;
+    }
+
+    .hero > #propic-container {
+        position: static;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .second-name {
+        left: 0;
+        bottom: 0;
+    }
+
+    #collabAndCv {
+        right: 0;
+        bottom: 0;
+        width: auto;
+    }
+}
+
+.hero-image {
+    position: relative;
+    width: 230px;
+    height: 250px;
+    left: 27px;
+    top: 22px;
+    object-fit: cover;
+}
+
+#name {
+    height: 270px;
+    width: 410px;
+    position: relative;
+    bottom: 260px;
+    left: 150px;
+    background-color: #070F2B;
+}
+
+.first-name {
+    position: relative;
+    font-size: 50px;
+    font-family: 'Gantari', sans-serif;
+    color: #E7DB80;
+    bottom: 45px;
+}
+
+.second-name {
+    position: relative;
+    font-size: 50px;
+    font-family: 'Gantari', sans-serif;
+    color: white;
+    left: 200px;
+    bottom: 136px;
+}
+
+#specializations {
+    position: relative;
+    bottom: 160px;
+    background-color: #070F2B;
+}
+
+#specializations > h2 {
+    font-family: 'Gayathri', 'sans-serif';
+    color: #C4D9FF;
+    font-size: 33px;
+}
+
+#intro {
+    position: relative;
+    bottom: 155px;
+    background-color: #070F2B;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#collabAndCv {
+    position: relative;
+    background-color: #070F2B;
+    width: 260px;
+    right: 575px;
+    bottom: 70px;
+    height: 40px;
+
+}
+
+.collab {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: #070F2B;
+    border: none;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.cv {
+    position: relative;
+    left: 15px;
+    width: 90px;
+    height: 40px;
+    background-color: #C4D9FF;
+    color: #070F2B;
+    border: none;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+/* Spotlight glowing cursor */
+#spotlight {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* allow clicks through */
+    background: radial-gradient(
+            600px at 0 0,
+            rgba(29, 78, 300, 100), /* glow color */
+            transparent 80%
+    );
+    z-index: 9999; /* ensure it's on top */
+    transition: background 0.2s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
