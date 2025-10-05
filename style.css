@@ -216,6 +216,10 @@ section {
         max-width: 100% !important;
     }
 
+    #intro {
+        padding-bottom: 2rem;
+    }
+
     #collabAndCv {
         top: 7rem;
     }
