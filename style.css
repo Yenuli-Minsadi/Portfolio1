@@ -216,6 +216,10 @@ section {
         max-width: 100% !important;
     }
 
+    #collabAndCv {
+        top: 4rem;
+    }
+
     .hero > #propic-container {
         position: static;
         width: 200px;
