@@ -280,8 +280,9 @@ section {
     transform: scale(1.05);
 }
 
+
 /* Spotlight glowing cursor */
-#spotlight {
+/*#spotlight {
     position: fixed;
     top: 0;
     left: 0;
@@ -295,10 +296,11 @@ section {
     );
     z-index: 9999;
     transition: background 0.2s ease;
-}
+}*/
 
+/*
 @media all and (max-width: 425px) {
     #spotlight {
-        display: none; /* disable on mobile for better performance */
+        display: none; /* disable on mobile for better performance
     }
-}
+} */
