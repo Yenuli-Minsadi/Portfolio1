@@ -27,12 +27,13 @@ body {
     .header {
         position: relative;
 
+
     }
 }
 
 @media all and (min-width: 425px) {
     body {
-        padding-top: 100px;
+        padding-top: 7rem;
     }
 }
 
