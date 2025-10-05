@@ -208,7 +208,7 @@ section {
         text-align: center;
     }
 
-    #name, .first-name, .second-name, #specializations, #intro, #collabAndCv {
+    #name, .first-name, .second-name, #specializations, #intro {
         bottom: 0 !important;
         left: 0 !important;
         text-align: center !important;
