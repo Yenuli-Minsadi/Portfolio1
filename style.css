@@ -26,14 +26,14 @@ body {
 @media all and (max-width: 425px) {
     .header {
         position: relative;
-
+  
 
     }
 }
 
 @media all and (min-width: 425px) {
     body {
-        padding-top: 7rem;
+        padding-top: 100px;
     }
 }
 
