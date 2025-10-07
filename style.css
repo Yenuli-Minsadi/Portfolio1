@@ -458,4 +458,9 @@ section {
     .cv {
         width: 80px;
     }
+
+    #abt-me {
+        width: 100px;
+        height: 100px;
+    }
 }
