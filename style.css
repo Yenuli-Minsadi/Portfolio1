@@ -339,7 +339,7 @@ section {
         position: static;
         font-size: 4rem;
         bottom: 0;
-        text-align: center;
+        text-align: left;
         margin: 0 auto;
     }
 
@@ -349,7 +349,7 @@ section {
         left: 0;
         bottom: 0;
         margin-top: 0.5rem;
-        text-align: center;
+        text-align: right;
         margin-left: auto;
         margin-right: auto;
     }
