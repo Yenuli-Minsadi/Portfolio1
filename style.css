@@ -9,6 +9,7 @@ body {
     background-color: #070F2B;
     color: white;
     padding-top: 100px;
+    overflow-x: hidden;
 }
 
 .header {
@@ -219,6 +220,37 @@ section {
     border-radius: 8%;
 }
 
+#abt-me-title {
+    display: flex;
+    align-content: left;
+    margin-left: 80px;
+    padding-top: 3rem;
+    font-weight: 900;
+    font-size: 45px;
+    color: #070F2B;
+}
+
+.abt-me-para {
+    margin-top: -0.7rem;
+    margin-left: 80px;
+    line-height: 1.4;
+    font-size: 16px;
+    color: #070F2B;
+}
+
+.values {
+    height: 40px;
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: #070F2B;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
 /* Spotlight glowing cursor */
 #spotlight {
     position: fixed;
@@ -410,6 +442,12 @@ section {
     .cv {
         left: 0;
     }
+
+    #abt-me {
+            margin: 6rem auto;
+            width: 340px;
+            height: 440px;
+        }
 }
 
 /* On Small mobile */
@@ -463,5 +501,37 @@ section {
         margin: 6rem auto;
         width: 340px;
         height: 440px;
+    }
+
+    #abt-me-title {
+        text-align: left;
+        margin-left: 20px;
+        padding-top: 1rem;
+        font-weight: 900;
+        font-size: 30px;
+        color: #070F2B;
+    }
+
+    .abt-me-para {
+        text-align: left;
+        margin-top: -0.7rem;
+        margin-left: 20px;
+        line-height: 1.4;
+        font-size: 13px;
+        color: #070F2B;
+    }
+
+    .values {
+        display: block;
+        height: 30px;
+        width: 200px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background-color: #070F2B;
+        color: white;
+        border: none;
+        text-align: center;
+        border-radius: 25px;
+        cursor: pointer;
     }
 }
