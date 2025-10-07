@@ -339,7 +339,7 @@ section {
         position: static;
         font-size: 4rem;
         bottom: 0;
-        text-align: left;
+        text-align: center;
         margin: 0 auto;
     }
 
@@ -349,7 +349,7 @@ section {
         left: 0;
         bottom: 0;
         margin-top: 0.5rem;
-        text-align: right;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
@@ -427,7 +427,7 @@ section {
     }
 
     .first-name, .second-name {
-        font-size: 1.75rem;
+        font-size: 4rem;
     }
 
     #specializations > h2 {
