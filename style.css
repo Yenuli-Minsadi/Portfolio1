@@ -460,6 +460,7 @@ section {
     }
 
     #abt-me {
+        margin: 6rem auto;
         width: 340px;
         height: 400px;
     }
