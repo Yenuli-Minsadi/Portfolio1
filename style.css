@@ -565,7 +565,7 @@ section {
         font-size: 13px;
         color: #070F2B;
     }
-    
+
     .values {
         display: block;
         height: 30px;
@@ -584,7 +584,7 @@ section {
         text-align: center;
         padding-top: 2rem;
         font-weight: 900;
-        font-size: 15px;
+        font-size: 45px;
         position: relative;
     }
 }
