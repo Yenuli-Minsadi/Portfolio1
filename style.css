@@ -14,7 +14,7 @@ body {
 
 .header {
     background-color: #070F2B;
-    padding: 2.5rem 0;
+    padding: 1.8rem 0;
     top: 0;
     z-index: 1000;
     width: 100%;
@@ -251,6 +251,49 @@ section {
     cursor: pointer;
 }
 
+#education-title {
+    text-align: center;
+    padding-top: 8rem;
+    font-weight: 900;
+    font-size: 45px;
+    position: relative;
+}
+
+#education-journey {
+    position: relative;
+    width: 735px;
+    height: 480px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 7rem;
+    background: #070F2B;
+}
+
+#vidura-college {
+    color:  white;
+    margin-left: 250px;
+    margin-top: -70px;
+    font-size: 20px;
+}
+
+#vidura-desc {
+    color:  white;
+    margin-left: 250px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+#line1 {
+    height: 1px;
+    width: 485px;
+    background: white;
+    margin-left: 250px;
+    margin-top: 0.4rem;
+}
+
 /* Spotlight glowing cursor */
 #spotlight {
     position: fixed;
@@ -345,6 +388,8 @@ section {
         text-align: center;
         margin: 0 auto;
         max-width: 100%;
+       /* min-height: 100vh;*/
+
     }
 
     .hero {
