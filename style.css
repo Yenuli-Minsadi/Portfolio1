@@ -600,4 +600,22 @@ section {
         padding-top: 3rem;
         background: white;
     }
+
+    #vidura-college {
+        color:  black;
+
+    }
+
+    #vidura-desc {
+        color:  black;
+
+    }
+
+    #line1 {
+        height: 1px;
+        width: 485px;
+        background: black;
+        margin-left: 250px;
+        margin-top: 0.4rem;
+    }
 }
