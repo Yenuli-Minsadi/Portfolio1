@@ -657,8 +657,6 @@ section {
         font-size: 15px;
         margin-left: 5px;
         margin-top: 50px;
-
-
     }
 
     #vidura-desc {
@@ -688,48 +686,48 @@ section {
 
      }
 
-        #esoft-desc {
+     #esoft-desc {
             color:  white;
             margin-left: 5px;
             margin-top: 3px;
             line-height: 1.3;
             font-size: 10px;
 
-        }
+     }
 
-        #line2 {
+     #line2 {
             height: 0.5px;
             width: 320px;
             background: white;
             margin-left: 11px;
             margin-top: 0.3rem;
 
-        }
+     }
 
-             #ijse-institute {
+     #ijse-institute {
 
-                    color: white;
-                    font-size: 15px;
-                    margin-left: 5px;
-                    margin-top: 10px;
+             color: white;
+             font-size: 15px;
+             margin-left: 5px;
+             margin-top: 10px;
 
-             }
+     }
 
-                #ijse-desc {
-                    color:  white;
-                    margin-left: 5px;
-                    margin-top: 3px;
-                    line-height: 1.3;
-                    font-size: 10px;
+     #ijse-desc {
+             color:  white;
+             margin-left: 5px;
+             margin-top: 3px;
+             line-height: 1.3;
+             font-size: 10px;
 
-                }
+     }
 
-                #line3 {
-                    height: 0.5px;
-                    width: 320px;
-                    background: white;
-                    margin-left: 11px;
-                    margin-top: 0.3rem;
+     #line3 {
+             height: 0.5px;
+             width: 320px;
+             background: white;
+             margin-left: 11px;
+             margin-top: 0.3rem;
 
-                }
+     }
 }
