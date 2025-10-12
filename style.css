@@ -801,11 +801,57 @@ section {
      }
 
      #projects-title {
-        text-align: center;
-        padding-top: 2rem;
-        font-weight: 900;
-        font-size: 30px;
-        position: relative;
+         text-align: center;
+         padding-top: 8rem;
+         font-weight: 900;
+         font-size: 30px;
+         position: relative;
+     }
+
+     .projects-container {
+         position: relative;
+         overflow-x: hidden;
+     }
+
+     .project-card {
+         position: sticky;
+         background: #070F2B;
+         top: 0;
+         width: 100%;
+         height: 100vh;
+         align-content: center;
+
 
      }
+
+     .project-card:nth-child(1) {
+         z-index: 1;
+     }
+
+     .project-card:nth-child(2) {
+         z-index: 2;
+     }
+
+     .project-card:nth-child(3) {
+         z-index: 3;
+     }
+
+     .h {
+         position: relative;
+         left: 0;
+         font-size: 15px;
+         bottom: 50px;
+     }
+
+     .divs {
+         position: relative;
+         height: 300px;
+         width: 260px;
+         background: white;
+         left: 80px;
+         bottom: 20px;
+         border-radius: 30px;
+     }
+
+
 }
