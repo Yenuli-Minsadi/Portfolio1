@@ -848,8 +848,11 @@ section {
          height: 300px;
          width: 260px;
          background: white;
-         left: 80px;
-         bottom: 20px;
+         left: 0;
+         bottom: 0;
+         top: 0;
+         right: 0;
+         margin: auto;
          border-radius: 30px;
      }
 
