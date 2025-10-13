@@ -400,6 +400,137 @@ section {
     border-radius: 30px;
 }
 
+#assignments-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    position: relative;
+
+}
+
+#work-experience-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    position: relative;
+
+}
+
+#values-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    position: relative;
+
+}
+
+.values-list {
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.values-list li {
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    line-height: 1.6;
+    text-align: center;
+    color: #E7DB80;
+
+}
+
+
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+    position: relative;
+    padding-top: 30px;
+}
+
+.scroll-container::before,
+.scroll-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.scroll-container::before {
+     left: 0;
+     background: linear-gradient(to right, #1e3a5f 0%, rgba(30, 58, 95, 0.8) 50%, transparent 100%);
+}
+
+.scroll-container::after {
+     right: 0;
+     background: linear-gradient(to left, #1e3a5f 0%, rgba(30, 58, 95, 0.8) 50%, transparent 100%);
+}
+
+.scroll-track {
+     display: flex;
+     gap: 15px;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     width: fit-content;
+}
+
+.scroll-left {
+     animation: scrollLeft 40s linear infinite;
+}
+
+.scroll-right {
+     animation: scrollRight 45s linear infinite;
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+        }
+    100% {
+        transform: translateX(-50%);
+         }
+    }
+
+    @keyframes scrollRight {
+    0% {
+        transform: translateX(-50%);
+        }
+        100% {
+        transform: translateX(0);
+        }
+}
+
+   .tag {
+         background: rgba(255, 255, 255, 0.1);
+         backdrop-filter: blur(10px);
+         border: 1px solid rgba(255, 255, 255, 0.2);
+         color: rgba(255, 255, 255, 0.9);
+         padding: 12px 24px;
+         border-radius: 50px;
+         font-size: 1rem;
+         white-space: nowrap;
+         font-weight: 500;
+         transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+         cursor: default;
+         will-change: transform;
+   }
+
+   .tag:hover {
+          background: rgba(255, 255, 255, 0.2);
+          border-color: rgba(255, 255, 255, 0.4);
+          transform: translateY(-3px) scale(1.05);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+   }
+
+   .tag::before {
+          content: '#';
+          margin-right: 5px;
+          color: rgba(255, 255, 255, 0.5);
+   }
+
 /* Spotlight glowing cursor */
 #spotlight {
     position: fixed;
