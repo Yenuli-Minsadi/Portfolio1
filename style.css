@@ -400,6 +400,27 @@ section {
     border-radius: 30px;
 }
 
+.company-image {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: white;
+    margin: 120px;
+    left: 200px;
+}
+
+.position {
+    position: relative;
+    left: 650px;
+    bottom: 220px;
+}
+
+.year {
+    position: relative;
+    left: 650px;
+    bottom: 210px;
+}
+
 #assignments-title {
     text-align: center;
     font-weight: 900;
@@ -436,6 +457,25 @@ section {
     line-height: 1.6;
     text-align: center;
     color: #E7DB80;
+
+}
+
+#hobby-title  {
+    left: 500px;
+    font-weight: 900;
+    padding-top: 8rem;
+    font-size: 45px;
+    position: relative;
+}
+
+#dance {
+    left: 670px;
+    bottom: 210px;
+    font-weight: 900;
+    padding-top: 8rem;
+    font-size: 45px;
+    position: relative;
+    color: #C4D9FF;
 
 }
 
@@ -729,7 +769,7 @@ section {
             margin: 6rem auto;
             width: 340px;
             height: 440px;
-        }
+    }
 }
 
 /* On Small mobile */
