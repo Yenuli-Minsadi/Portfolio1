@@ -413,6 +413,7 @@ section {
     font-weight: 900;
     font-size: 45px;
     position: relative;
+    padding-bottom: 30px;
 }
 
 .company-image {
@@ -420,20 +421,20 @@ section {
     width: 100px;
     height: 100px;
     background: white;
-    margin: 120px;
-    left: 200px;
+    margin: 50px;
+    left: 400px;
 }
 
 .position {
     position: relative;
     left: 650px;
-    bottom: 220px;
+    bottom: 155px;
 }
 
 .year {
     position: relative;
     left: 650px;
-    bottom: 210px;
+    bottom: 150px;
 }
 
 #values-title {
