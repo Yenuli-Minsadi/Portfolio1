@@ -505,14 +505,14 @@ section {
 
 #hobby-title  {
     position: relative;
-    left: 41.7%;
+    left: 32.7%;
     font-weight: 900;
     font-size: 45px;
 }
 
 #dance {
     position: relative;
-    left: 55.8%;
+    left: 47.8%;
     bottom: 80px;
     font-weight: 900;
     font-size: 45px;
@@ -552,7 +552,7 @@ section {
     transform: rotateY(270deg);
     transform-style: preserve-3d;
     animation: animate 40s linear infinite;
-    animation-delay: calc(var(--i) * 6.67s);
+    animation-delay: calc(var(--i) * 3.95s);
 }
 
 @keyframes animate {
