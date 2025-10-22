@@ -391,19 +391,102 @@ section {
 
 .h {
     position: relative;
-    left: 23%;
+    left: 19.5%;
     font-size: 25px;
-    bottom: 50px;
+    bottom: 10px;
 }
+
+.project-desc {
+    position: relative;
+    left: 19.5%;
+    font-size: 18px;
+}
+
+.lang-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 2%;
+    left: 19.5%;
+    gap: 10px;
+
+}
+
+.lang {
+    left: 19.5%;
+    align-content: center;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    background: white;
+    color: #070F2B;
+}
+
+/*.lang {*/
+/*    position: relative;*/
+/*    left: 19.5%;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    font-size: 18px;*/
+/*    border-radius: 20px;*/
+/*    height: 30px;*/
+/*    width: 80px;*/
+/*    background: white;*/
+/*    color: #070F2B;*/
+/*}*/
 
 .divs {
     position: relative;
     height: 300px;
     width: 260px;
     background: white;
-    left: 62.5%;
+    left: 58.5%;
     bottom: 100px;
     border-radius: 30px;
+    overflow: hidden;
+}
+
+.divs:hover {
+    background: #C4D9FF;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(196, 217, 255, 0.4);
+}
+
+.github-link {
+    position: relative;
+    top: 30px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.4s ease;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.divs:hover .github-link {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.github-icon {
+    color:white;
+
+}
+
+.github-link:hover {
+    background: white;
+    transform: scale(1.1) rotate(360deg);
+    transition: all 0.4s ease;
 }
 
 /* Assignments Section */
