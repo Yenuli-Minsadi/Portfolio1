@@ -191,6 +191,7 @@ section {
     text-align: center;
     border-radius: 25px;
     cursor: pointer;
+    left: 5px;
 }
 
 .cv {
@@ -249,6 +250,7 @@ section {
     text-align: center;
     border-radius: 25px;
     cursor: pointer;
+    left: 0;
 }
 
 #education-title {
