@@ -312,43 +312,43 @@
  <section class="contact">
      <p id="contact-title">Let's Collab!</p>
      <div class="form-container">
-         <form class="contact-form" action="https://formspree.io/f/mpwovevv" method="POST">
+         <form class="contact-form" action="https://formspree.io/f/mpwovevv" method="POST" onsubmit="sendEmail(event)">
              <div class="form-row">
                  <div class="form-group">
                      <label>First Name</label>
-                     <input type="text" placeholder="First Name">
+                     <input type="text" placeholder="First Name" name="first_name">
                  </div>
                  <div class="form-group">
                      <label>Last Name</label>
-                     <input type="text" placeholder="Last Name">
+                     <input type="text" placeholder="Last Name" name="last_name">
                  </div>
              </div>
 
              <div class="form-row">
                  <div class="form-group">
                      <label>Email</label>
-                     <input type="email" placeholder="Email">
+                     <input type="email" placeholder="Email" name="email">
                  </div>
                  <div class="form-group">
                      <label>Phone/Mobile</label>
-                     <input type="text" placeholder="Phone/Mobile">
+                     <input type="text" placeholder="Phone/Mobile" name="phone">
                  </div>
              </div>
 
              <div class="form-row">
                  <div class="form-group">
                      <label>Project Type</label>
-                     <input type="text" placeholder="Project Type">
+                     <input type="text" placeholder="Project Type" name="project_type">
                  </div>
                  <div class="form-group">
                      <label>Timeline</label>
-                     <input type="text" placeholder="Timeline">
+                     <input type="text" placeholder="Timeline" name="timeline">
                  </div>
              </div>
 
              <div class="form-group full">
                  <label>Description</label>
-                 <textarea placeholder="Briefly describe your project, goals and any specific requirements..."></textarea>
+                 <textarea placeholder="Briefly describe your project, goals and any specific requirements..." name="description"></textarea>
              </div>
 
              <button type="submit">Submit</button>
@@ -378,5 +378,42 @@
 <!--    });-->
 
 <!--  </script>-->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <script>
+      //immediately invoked function expression (IIFE) since emailjs need to be initialized before send method is called
+      //runs automatically when page loads
+      (function() {
+          emailjs.init("hATq5s5NSnjmUnlDW"); // EmailJS Public Key
+      })();
+
+      function sendEmail(event) {
+          event.preventDefault(); // Prevent form from refreshing the page
+
+          // Collects form data
+          const params = {
+              first_name: document.querySelector("[name='first_name']").value,
+              last_name: document.querySelector("[name='last_name']").value,
+              email: document.querySelector("[name='email']").value,
+              phone: document.querySelector("[name='phone']").value,
+              project_type: document.querySelector("[name='project_type']").value,
+              timeline: document.querySelector("[name='timeline']").value,
+              description: document.querySelector("[name='description']").value
+          };
+
+          // Send email using EmailJS
+          emailjs.send("service_fucgl1n", "template_x8bzzmp", params)
+              .then(function(response) {
+                  console.log("SUCCESS!", response.status, response.text);
+                  alert("Thank you! Your message has been sent successfully");
+                  document.querySelector("form").reset(); // clears form
+              }, function(error) {
+                  console.error("FAILED...", error);
+                  alert("Oops! Something went wrong. Please try again later");
+              });
+      }
+  </script>
+
+
   </body>
 </html>
