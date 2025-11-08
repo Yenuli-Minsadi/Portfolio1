@@ -10,6 +10,8 @@ body {
     color: white;
     padding-top: 100px;
     overflow-x: hidden;
+    /*max-width: 100vw;*/
+    /*overflow-x: hidden;*/
 }
 
 .header {
@@ -93,6 +95,7 @@ section {
     position: relative;
     width: 100%;
     height: auto;
+    overflow-x: hidden;
 }
 
 .hero {
@@ -102,6 +105,7 @@ section {
     align-items: center;
     position: relative;
     padding-top: 20rem;
+    /*flex: wrap;*/
 }
 
 .hero > #propic-container {
@@ -118,9 +122,9 @@ section {
 .hero-image {
     position: relative;
     width: 230px;
-    height: 250px;
+    height: 400px;
     left: 27px;
-    top: 22px;
+    top: 30px;
     object-fit: cover;
 }
 
@@ -219,6 +223,7 @@ section {
     right: 0;
     margin: auto;
     border-radius: 8%;
+    overflow: hidden;
 }
 
 #abt-me-title {
@@ -237,6 +242,25 @@ section {
     line-height: 1.4;
     font-size: 16px;
     color: #070F2B;
+    bottom: -200px;
+}
+
+/*#abt-me-img-container {*/
+/*    position: absolute;*/
+/*    width: 400px;*/
+/*    height: 400px;*/
+/*    left: 400px;*/
+/*    top: 50px;*/
+/*    background: white;*/
+/*}*/
+
+.about-image {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    left: 468px;
+    bottom: -110px;
+    object-fit: cover;
 }
 
 .values {
@@ -354,6 +378,9 @@ section {
     font-weight: 900;
     font-size: 45px;
     position: relative;
+}
+.projects {
+    overflow-x: visible;
 }
 
 #projects-title {
@@ -628,6 +655,8 @@ section {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    overflow-y: hidden;
+
 }
 
 .slideshow {
