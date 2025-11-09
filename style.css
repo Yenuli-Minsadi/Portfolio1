@@ -123,7 +123,7 @@ section {
     position: relative;
     width: 230px;
     height: 400px;
-    left: 27px;
+    left: 20px;
     top: 30px;
     object-fit: cover;
 }
@@ -230,7 +230,7 @@ section {
     display: flex;
     align-content: left;
     margin-left: 80px;
-    padding-top: 3rem;
+    padding-top: 1rem;
     font-weight: 900;
     font-size: 45px;
     color: #070F2B;
@@ -262,6 +262,47 @@ section {
     bottom: -110px;
     object-fit: cover;
 }
+
+.linkedin-image {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 413px;
+    margin-top: 2rem;
+}
+
+.medium-image {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 413px;
+    margin-top: 5rem;
+}
+
+.insta-image {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 413px;
+    margin-top: 8rem;
+}
+
+.behance-image {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 413px;
+    margin-top: 11rem;
+}
+
+.facebook-image {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 413px;
+    margin-top: 14rem;
+}
+
 
 .values {
     height: 40px;
@@ -297,6 +338,49 @@ section {
     padding-top: 7rem;
     background: #070F2B;
 }
+
+/*.vidura-image {*/
+/*    width: 80px;*/
+/*    height: 80px;*/
+/*    object-fit: contain;*/
+/*    border-radius: 10px;*/
+/*    flex-shrink: 0;*/
+/*}*/
+
+/*.esoft-image {*/
+/*    width: 80px;*/
+/*    height: 80px;*/
+/*    object-fit: contain;*/
+/*    border-radius: 10px;*/
+/*    flex-shrink: 0;*/
+/*}*/
+
+/*.ijse-image {*/
+/*    width: 80px;*/
+/*    height: 80px;*/
+/*    object-fit: contain;*/
+/*    border-radius: 10px;*/
+/*    flex-shrink: 0;*/
+/*}*/
+
+/*.edu-image{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: left;*/
+/*    gap: 1rem;*/
+/*    width: 30px;*/
+/*    height: 24px;*/
+/*}*/
+
+
+/*.edu-image {*/
+/*    width: 80px;*/
+/*    height: 80px;*/
+/*    object-fit: contain;*/
+/*    border-radius: 10px;*/
+/*    flex-shrink: 0;*/
+/*}*/
+
 
 #vidura-college {
     color:  white;
@@ -571,6 +655,13 @@ section {
     right: 10%;
     transform: translateX(-50%);
     border-radius: 30px;
+    overflow: hidden;
+}
+
+.company-image>.logo-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 .position {
@@ -1112,6 +1203,10 @@ button:hover {
         margin: 6rem auto;
         width: 340px;
         height: 440px;
+    }
+
+    .about-image {
+        display: none;
     }
 
     .h {
