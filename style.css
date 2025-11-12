@@ -333,11 +333,42 @@ section {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 400px;
     margin: auto;
     padding-top: 7rem;
     background: #070F2B;
 }
+
+.timeline {
+    position: relative;
+    width: 40px;
+    height: 250px;
+    left: 350px;
+    bottom: 430px;
+}
+
+.timeline-line {
+    position: absolute;
+    left: 19px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 14px;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
+}
+
+.dot-1 { top: 0; }
+.dot-2 { top: 50%; transform: translateY(-50%); }
+.dot-3 { bottom: 0; }
 
 /*.vidura-image {*/
 /*    width: 80px;*/
@@ -384,14 +415,14 @@ section {
 
 #vidura-college {
     color:  white;
-    margin-left: 250px;
+    margin-left: 150px;
     margin-top: -70px;
     font-size: 20px;
 }
 
 #vidura-desc {
     color:  white;
-    margin-left: 250px;
+    margin-left: 150px;
     font-size: 15px;
     line-height: 2;
 }
@@ -400,13 +431,13 @@ section {
     height: 1px;
     width: 485px;
     background: white;
-    margin-left: 250px;
+    margin-left: 150px;
     margin-top: 0.4rem;
 }
 
 #esoft-metro-campus {
     color:  white;
-    margin-left: 250px;
+    margin-left: 150px;
     margin-top: -70px;
     padding-top: 130px;
     font-size: 20px;
@@ -414,7 +445,7 @@ section {
 
 #esoft-desc {
     color:  white;
-    margin-left: 250px;
+    margin-left: 150px;
     font-size: 15px;
     line-height: 2;
 }
@@ -423,13 +454,13 @@ section {
     height: 1px;
     width: 485px;
     background: white;
-    margin-left: 250px;
+    margin-left: 150px;
     margin-top: 0.4rem;
 }
 
 #ijse-institute {
     color:  white;
-    margin-left: 250px;
+    margin-left: 150px;
     margin-top: -70px;
     padding-top: 130px;
     font-size: 20px;
@@ -437,7 +468,7 @@ section {
 
 #ijse-desc {
     color:  white;
-    margin-left: 250px;
+    margin-left: 150px;
     font-size: 15px;
     line-height: 2;
 }
@@ -446,7 +477,7 @@ section {
     height: 1px;
     width: 485px;
     background: white;
-    margin-left: 250px;
+    margin-left: 150px;
     margin-top: 0.4rem;
 }
 
@@ -604,6 +635,14 @@ section {
     background: white;
     transform: scale(1.1) rotate(360deg);
     transition: all 0.4s ease;
+}
+
+.project-image {
+    position: relative;
+    width: 230px;
+    height: 120px;
+    left: 15px;
+    top: 30px;
 }
 
 /* Assignments Section */
