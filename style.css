@@ -62,7 +62,7 @@ nav{
     color: white;
     text-align: center;
     padding: 2rem 1rem;
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
 }
 
 .footer p {
@@ -105,6 +105,7 @@ section {
     align-items: center;
     position: relative;
     padding-top: 20rem;
+    padding-bottom: 2rem;
     /*flex: wrap;*/
 }
 
@@ -211,7 +212,18 @@ section {
     border-radius: 25px;
     cursor: pointer;
 }
+.cv:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(196, 217, 255, 0.4);
+}
+.collab:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(230, 216, 117, 0.6);
+}
 
+#about-me {
+    padding-top: 6rem;
+}
 #abt-me {
     background: #E7DB80;
     width: 735px;
@@ -224,6 +236,7 @@ section {
     margin: auto;
     border-radius: 8%;
     overflow: hidden;
+
 }
 
 #abt-me-title {
@@ -303,7 +316,6 @@ section {
     margin-top: 14rem;
 }
 
-
 .values {
     height: 40px;
     width: 200px;
@@ -343,8 +355,8 @@ section {
     position: relative;
     width: 40px;
     height: 250px;
-    left: 350px;
-    bottom: 430px;
+    left: 70px;
+    bottom: 290px;
 }
 
 .timeline-line {
@@ -352,16 +364,16 @@ section {
     left: 19px;
     top: 0;
     bottom: 0;
-    width: 1px;
+    width: 2px;
     background: rgba(255, 255, 255, 0.2);
 }
 
 .timeline-dot {
     position: absolute;
     left: 14px;
-    width: 12px;
-    height: 12px;
-    background: #fff;
+    width: 13px;
+    height: 13px;
+    background: #C4D9FF;
     border-radius: 50%;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
 }
@@ -485,6 +497,8 @@ section {
     padding-top: 2rem;
     overflow: hidden;
     width: 100%;
+    padding-bottom: 4rem;
+    margin-bottom: -2rem;
 }
 
 #skills-title {
@@ -493,6 +507,7 @@ section {
     font-weight: 900;
     font-size: 45px;
     position: relative;
+    padding-bottom: 4rem;
 }
 .projects {
     overflow-x: visible;
@@ -500,16 +515,18 @@ section {
 
 #projects-title {
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 6rem;
     font-weight: 900;
     font-size: 45px;
     position: relative;
+    /*padding-bottom: -2rem;*/
 }
 
 .projects-container {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
 .project-card {
@@ -517,7 +534,7 @@ section {
     background: #070F2B;
     top: 0;
     width: 100%;
-    height: 100vh;
+    height: 700px;
     align-content: center;
 }
 
@@ -555,8 +572,6 @@ section {
     top: 2%;
     left: 19.5%;
     gap: 10px;
-
-
 }
 
 .lang {
@@ -627,7 +642,7 @@ section {
 }
 
 .github-icon {
-    color:white;
+    color: white;
 
 }
 
@@ -675,6 +690,11 @@ section {
     border-radius: 30px;
 }
 
+.card-yellow:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(230, 216, 117, 0.6);
+}
+
 .github-circle-image {
     position: relative;
     left: 430px;
@@ -690,7 +710,7 @@ section {
 
 /* Work Experience Section */
 .work-experience {
-    padding-top: 8rem;
+    padding-top: 4rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -708,7 +728,7 @@ section {
     width: 100px;
     height: 100px;
     background: white;
-    margin: 50px auto;
+    margin: 20px auto;
     right: 10%;
     transform: translateX(-50%);
     border-radius: 30px;
@@ -725,14 +745,15 @@ section {
     position: relative;
     left: 100%;
     transform: translateX(-50%);
-    bottom: 155px;
+    bottom: 125px;
 }
 
 .year {
     position: relative;
     left: 100%;
     transform: translateX(-50%);
-    bottom: 150px;
+    bottom: 115px;
+    line-height: 1.6;
 }
 
 #values-title {
@@ -740,7 +761,7 @@ section {
     font-weight: 900;
     font-size: 45px;
     position: relative;
-    padding-top: 8rem;
+    padding-top: 4rem;
 }
 
 .values-list {
@@ -794,7 +815,7 @@ section {
     font-weight: 900;
     font-size: 45px;
     position: relative;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .services {
@@ -802,7 +823,7 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 700px;
     overflow-y: hidden;
 
 }
@@ -984,7 +1005,7 @@ section {
     font-weight: 900;
     font-size: 45px;
     position: relative;
-    padding-top: 8rem;
+    padding-top: 4rem;
 }
 
 .form-container {
