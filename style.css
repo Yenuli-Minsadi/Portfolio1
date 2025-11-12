@@ -506,13 +506,15 @@ section {
     position: relative;
     left: 19.5%;
     font-size: 25px;
-    bottom: 10px;
+    top: 15px;
+
 }
 
 .project-desc {
     position: relative;
     left: 19.5%;
     font-size: 18px;
+    margin-top: 1rem;
 }
 
 .lang-container {
@@ -522,6 +524,7 @@ section {
     top: 2%;
     left: 19.5%;
     gap: 10px;
+
 
 }
 
@@ -535,6 +538,7 @@ section {
     width: 80px;
     background: white;
     color: #070F2B;
+    margin-bottom: 2rem;
 }
 
 /*.lang {*/
@@ -557,7 +561,7 @@ section {
     width: 260px;
     background: white;
     left: 58.5%;
-    bottom: 100px;
+    bottom: 148px;
     border-radius: 30px;
     overflow: hidden;
 }
@@ -625,10 +629,24 @@ section {
 }
 
 .card-yellow {
-    background: cadetblue;
-    width: 200px;
-    height: 50px;
+    background: linear-gradient(90deg, #C4D9FF 60%, #E6D875 100%);
+    width: 500px;
+    height: 100px;
     margin: 20px;
+    border-radius: 30px;
+}
+
+.github-circle-image {
+    position: relative;
+    left: 430px;
+    margin-top: 20px;
+}
+
+.assignment-num {
+    position: relative;
+    margin-left: 20px;
+    bottom:48px;
+    color: #070F2B;
 }
 
 /* Work Experience Section */
