@@ -536,6 +536,7 @@ section {
     width: 100%;
     height: 700px;
     align-content: center;
+    overflow-x: hidden;
 }
 
 .project-card:nth-child(1) {
@@ -548,6 +549,18 @@ section {
 
 .project-card:nth-child(3) {
     z-index: 3;
+}
+
+.project-card:nth-child(4) {
+    z-index: 4;
+}
+
+.project-card:nth-child(5) {
+    z-index: 5;
+}
+
+.project-card:nth-child(6) {
+    z-index: 6;
 }
 
 .h {
@@ -563,6 +576,7 @@ section {
     left: 19.5%;
     font-size: 18px;
     margin-top: 1rem;
+    line-height: 1.6;
 }
 
 .lang-container {
@@ -607,7 +621,7 @@ section {
     width: 260px;
     background: white;
     left: 58.5%;
-    bottom: 148px;
+    bottom: 165px;
     border-radius: 30px;
     overflow: hidden;
 }
@@ -658,6 +672,10 @@ section {
     height: 120px;
     left: 15px;
     top: 30px;
+}
+
+#hibernate {
+    width: 100px;
 }
 
 /* Assignments Section */
