@@ -180,9 +180,10 @@ section {
     position: relative;
     background-color: #070F2B;
     width: 260px;
-    right: 575px;
+    right: 580px;
     bottom: 70px;
     height: 40px;
+
 }
 
 .collab {
@@ -219,6 +220,56 @@ section {
 .collab:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(230, 216, 117, 0.6);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#linkedin-hero-socials {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 265px;
+    bottom: -10px;
+    cursor: pointer;
+}
+
+#medium-hero-socials {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 265px;
+    bottom: -10px;
+    cursor: pointer;
+}
+
+#insta-hero-socials {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 265px;
+    bottom: -10px;
+    cursor: pointer;
+}
+
+#behance-hero-socials {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 265px;
+    bottom: -10px;
+    cursor: pointer;
+}
+
+#fb-hero-socials {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 265px;
+    bottom: -10px;
+    cursor: pointer;
 }
 
 #about-me {
